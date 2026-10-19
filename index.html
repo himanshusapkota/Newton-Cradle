@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newton's Cradle Simulator</title>
+
+</head>
+<body>
+   <div class="page">
+    <div class="box">
+        <h2>What is Newton's Cradle?</h2>
+        <p>Newton's Cradle is a famous desk toy and a classic physics demonstration. It is made of a row of identical metal balls, usually five, each hanging from a frame by two thing strings. The balls are lined up so that they just touch each other when they are at rest.Because the strings are attached at an angle, the balls can only swing back and forth in a straight line, which keeps every collision neat and predictable.</p>
+
+        <p>
+            When you lift one ball at the end, pull it back and let it go, it swings down and strikes the row. Almost instantly, the ball on the opposite end swings outward while the three balls in the middle seem to stay perfectly still. The outgoing ball rises to nearly the same height the first ball started from, then falls back and repeats the process in the other direction. The clicking pattern can continue for a suprisingly long time.
+
+        </p>
+
+        <h2>A Short History</h2>
+        <p>
+            The toy is named after Sir Issac Newton, who described the laws of motion in the 17th century. Newton did not invent the toy himself. Earlier scientists, including french physicist Edme Mariotee, studied collisions between hanging balls long before it became a popular desk decoration. The name "<b>Newton's Cradle</b>" was given to the device later because it demonstrates the ideas Newton explained so well forces, motion and the conservation of momentum.
+        </p>
+
+
+        <h2>How to Use this Simulator?</h2>
+
+        <p>The simulator below draws five metal balls hanging from strings on HTML canvas. You can Press the Start Button or click directly on the first ball on the left, and it will be lifted and released. Watch What happens when it hits to others. press reset at any time to return all of the balls to their original positions, then try again and watch closely how the energy passes through the middle balls.</p>
+
+        <h2>Simulator</h2>
+
+        <p class="hint">Press Start or Click the first ball on the left to swing it.</p>
+
+        <div class="canvas-box">
+            <canvas id="cradle" width="600" height="320"></canvas>
+            
+        </div>
+
+        <div class="buttons">
+            <button id="startBtn">Start</button>
+            <button id="resetBtn">Reset</button>
+            
+        </div>
+
+        <h2>The principal behind Newton's Cradle</h2>
+
+        <p>A Newton's Cradle is a beautiful example of two of the most important rules in the physics that is <b>Conservation of momentum</b>and <b>Conservation of energy</b>. Both rules must be true at the same time and together they explain wht the cradle behaves in such precise way.</p>
+
+        <h3>1.Momentum</h3>
+        <p>Momentum is the amount of motion object has. It is calculated by multiplying the mass of the object by its velocity. A heavy metal ball moving has a lot of momentum, while a light ball moving slowly has very little. In a collision between object that are not touched by any outside force, the total number after the collision. Momentum is not created or destroyed, it is only passed from one object to another.</p>
+
+        <h3>2. Kinetic Energy</h3>
+        <p>Kinetic Energy is the energy of motion. It depends on the mass of an object and on the square of its velocity. When you lift the first ball, you give it gravitational potential energy, ehich is stored energy due to the height. As the ball falls, this stored energy is converted into kinetic energy. At the very bottom of the swing, the ball is moving at its fastest, and nearly all of its energy is kinetic.</p>
+
+        <h3>3.Collision</h3>
+        <p>The steel ball are very hard and springy, so the collision between them are almost perfectly elastic. In an elastic collision very little energy is lost as heat or sound, so the kinetic energy is also conserved. When the first ball strikes the second one, it passes its momentum and energy forward through a tiny compression wave that travels through the row of touching balls. The middle balls do not move noticeably, they only pass the push along, like a message handed from one person to the next. The last ball has nothing in front of it to hand the push to, so it is the one that swings away.</p>
+
+        <h3>4.Why Only One ball  comes out?</h3>
+        <p>you might wonder why a single ball swings out and not two balls moving at half of the speed. Two ball moving at half speed would have the same momentum as one ball at full speed. so momentum would still be conserved. However, they wouldonly have half of the kinetic energy, because energy depends on the square of the speed. Since both momentum and energy must be conserved together, the only possible result is one ball leaving at the same speed that the first ball arrived with. In the same wat, if you lift and release together, exactly two balls will swing out on the other side.</p>
+
+        <h3>5. Why the cradle Eventually Stops?</h3>
+        <p>In real life, the cradle doesnot swing forever. Each collision loses a small amount of energy as sound , heat and through the air resistance and friction in the strings. After many swings the balls move less and less, until everything comes to the rest. In this simulator, a very less amount of friction is added to the motion to copy this effect</p>
+
+    </div>
+   </div> 
+</body>
+</html>
